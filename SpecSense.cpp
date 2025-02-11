@@ -34,8 +34,56 @@ void CPUInfo() {
     }
 }
 
+void AMD(string AMD, string quiz){
+    switch (AMD || quiz){
+        case "Gaming":
+            case "Ryzen 3":
+                case "5800X" || "5900X" || "5950X" || "5950X" || "7440U" || "7320U" || "210" || "8440U":
+                    cout<<"Se la usi prinicipalemente per giocare dovresi fare un upgrade";
+                    break;
+                break;
+            case "Ryzen 5":
+                break;
+            case "Ryzen 7":
+                break;
+            case "Ryzen 9":
+                break;
+            default:
+                cout<<"CPU non riconosciuta";
+                break;
+        case "Workstation":
+            case "Ryzen 3":
+                break;
+            case "Ryzen 5":
+                break;
+            case "Ryzen 7":
+                break;
+            case "Ryzen 9":
+                break;
+            default:
+                cout<<"CPU non riconosciuta";
+                break;
+        case "Server":
+            case "Ryzen 3":
+                break;
+            case "Ryzen 5":
+                break;
+            case "Ryzen 7":
+                break;
+            case "Ryzen 9":
+                break;
+            default:
+                cout<<"CPU non riconosciuta";
+                break;
+        default:
+            cout<<"CPU non riconosciuta";
+            break;
+    }
+}
+void Intel()
 int main() 
 {
+    
     StartingProgram();
     
     return 0;

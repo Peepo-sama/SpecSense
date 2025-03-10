@@ -168,8 +168,8 @@ int main() {
     StartingProgram();
     while (true) {
         cout << "\nScegli un'opzione:\n";
-        cout << "1 - Controlla la CPU\n";
-        cout << "2 - Controlla la RAM\n";
+        cout << "1 - Analizza la CPU\n";
+        cout << "2 - Analizza la RAM\n";
         cout << "3 - Esci\n";
         int scelta;
         cin >> scelta;

@@ -1,8 +1,8 @@
 #include <iostream>
-#include <thread>
-#include <chrono>
+#include <thread> // Per timer
+#include <chrono> // Per timer
 #include <vector>
-#include <algorithm> // Si usa per la funzione any_of
+#include <algorithm> // Si usa per la funzione any_of (controlla se almeno un elemento soddisfa la condizione)
 
 #ifdef _WIN32 // (Ifdef = identifier) identifica se il sistema operativo è Windows
     #include <windows.h>
@@ -93,7 +93,7 @@ void AnalyzeCPU(const string& cpuModel, const string& usage) {
     }
 
     bool isCompatible = any_of(selectedCPUs->begin(), selectedCPUs->end(), [&](const string& cpu) {  // Controlla se il modello della CPU contiene una delle stringhe selezionate
-        return cpuModel.find(cpu) != string::npos;  
+        return cpuModel.find(cpu) != string::npos; // npos serve per le stringhe con il più grande numero rappresentabile che spesso si trovano nelle architetture a 64x
     });
 
     PrintAnalysisResult(isCompatible, usage); 

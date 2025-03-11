@@ -27,7 +27,7 @@ SpecSense è un programma che permette di analizzare la compatibilità della tua
   - Su Windows: Usa un compilatore come MSVC o MinGW.
   
   - Su Linux: Usa g++:
-    g++ main.cpp -o SpecSense
+    g++ SpecSense.cpp -o SpecSense
     ./SpecSense
   
 3. Seleziona una delle opzioni nel menu:

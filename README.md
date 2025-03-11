@@ -15,7 +15,7 @@ SpecSense è un programma che permette di analizzare la compatibilità della tua
 - **Windows**: Dev'essere installato un'ambiente di sviluppo che supporta C++ oppure eseguire SpecSense.exe che verrà eseguito sul terminale.
 - **Linux**: Compilatore C++ standard (g++).
 
-## Come Usare
+## Utilizzo
 
 1. Clona il repository:
 
